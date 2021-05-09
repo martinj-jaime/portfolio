@@ -1,0 +1,36 @@
+{
+    "COMENTARIO0": "HOME",
+
+    "home.js": "Desarrollador Full Stack de Javascript",
+
+    "COMENTARIO1": "SIDEBAR NAV",
+
+    "sidebar.title": "Mi Portafolio",
+    "sidebar.aboutme": "Sobre Mí",
+    "sidebar.me": "Yo",
+    "sidebar.knowledge": "Conocimientos",
+    "sidebar.proyects": "Proyectos",
+    "sidebar.studying": "Estudios",
+
+    "COMENTARIO2": "PROYECTS",
+
+    "proyects.titleG": "Portafolio",
+    "proyects.descriptionG": "Amo programar, lo hago cada día, y lo justifico con mis proyectos personales",
+    "proyects.git": "Presiona para ver más",
+
+    "COMENTARIO3": "ABOUT ME",
+
+    "me.whoami": "¿Quien soy?",
+    "me.me": "Soy un desarrollador, un joven argentino de 17 años, con conocimientos actuales en el stack mern pero que sigue aprendiendo nuevas tecnologías y lenguajes todos los días. Cuando aprendí a react native, también me interesó el desarrollo móvil, por lo que también quiero apuntar mi aprendizaje hacia ese lado.",
+    "me.interest": "Intereses",
+    "me.myinterest": "Además de escribir y estudiar código, me gusta leer libros sobre desarrollo personal, finanzas y física, al mismo tiempo que voy a nadar. La mente sigue al cuerpo y el cuerpo sigue a la mente.",
+    "me.download": "Descarga mi CV",
+    "me.skills": "Habilidades",
+    "me.lenguages": "Lenguajes y Marcos de trabajo",
+    "me.tools": "Herramientas",
+
+    "COMENTARIO4": "STUDIES",
+
+    "studies.progress":"En progreso",
+    "studies.next":"Año Próximo"
+}
