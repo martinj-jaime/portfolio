@@ -12,7 +12,7 @@ function Home() {
             <h3>
                 <FormattedMessage
                 id="home.js"
-                defaultMessage= " pepe "
+                defaultMessage= "Full Stack Javascript Developer"
                 />
             </h3>
            

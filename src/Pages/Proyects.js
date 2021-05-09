@@ -14,6 +14,7 @@ function Proyects() {
                 <h4 className="container pt-3 mb-4 d-flex justify-content-center">
                     <FormattedMessage
                     id="proyects.descriptionG"
+                    defaultMessage="I love programming. I program every day, and a way to justify it is through building personal projects"
                     />
                 </h4>
                 
