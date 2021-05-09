@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch ,Link, Redirect } from 'react-router-dom'
+import { HashRouter as Router, Route, Switch ,Link, Redirect } from 'react-router-dom'
 
 // Lenguages
 import React, {useContext} from 'react';
@@ -123,6 +123,11 @@ function Nav() {
             <Route path="/about-me" component={ Me }  />
             <Route path="/studies" component={ Studies }  />
             <Redirect from="/" to="/proyects" />
+            
+            {/* [[redirects]]
+            from = "/*"
+            to = "/index.html"
+            status = 200 */}
 
             </Switch>
             </div>    
