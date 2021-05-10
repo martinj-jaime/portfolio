@@ -9,14 +9,14 @@
     "sidebar.aboutme": "About Me",
     "sidebar.me": "Me",
     "sidebar.knowledge": "Knowledge",
-    "sidebar.proyects": "Proyects",
+    "sidebar.projects": "Projects",
     "sidebar.studying": "Studying",
 
-    "COMENTARIO2": "PROYECTS",
+    "COMENTARIO2": "PROJECTS",
 
-    "proyects.titleG": "Portfolio",
-    "proyects.descriptionG": "I love programming. I program every day, and a way to justify it is through building personal projects",
-    "proyects.git": "Click to see more",
+    "projects.titleG": "Portfolio",
+    "projects.descriptionG": "I love programming. I program every day, and a way to justify it is through building personal projects",
+    "projects.git": "Click to see more",
 
     "COMENTARIO3": "ABOUT ME",
 

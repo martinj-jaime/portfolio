@@ -92,11 +92,11 @@ function Nav() {
                     />
                     </li>
                     <li>
-                        <Link to="/proyects">
+                        <Link to="/projects">
                         <i className="fas fa-code" aria-hidden="true"></i> 
                         <FormattedMessage
-                        id="sidebar.proyects"
-                        defaultMessage="Proyects"
+                        id="sidebar.projects"
+                        defaultMessage="Projects"
                         />
                         </Link>
                     </li>
@@ -122,7 +122,7 @@ function Nav() {
             <Route path="/projects" component={ Projects }  />
             <Route path="/about-me" component={ Me }  />
             <Route path="/studies" component={ Studies }  />
-            <Redirect from="/" to="/proyects" />
+            <Redirect from="/" to="/projects" />
             
             {/* [[redirects]]
             from = "/*"
