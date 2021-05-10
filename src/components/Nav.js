@@ -8,7 +8,7 @@ import {FormattedMessage} from 'react-intl';
 // Pages - Components
 import Home from './Home'
 import Me from '../Pages/Me'
-import Proyects from '../Pages/Proyects'
+import Projects from '../Pages/Projects'
 import Studies from '../Pages/Studies'
 
 function Nav() {
@@ -119,7 +119,7 @@ function Nav() {
             <div className="contenido">
             <Switch>
 
-            <Route path="/proyects" component={ Proyects }  />
+            <Route path="/projects" component={ Projects }  />
             <Route path="/about-me" component={ Me }  />
             <Route path="/studies" component={ Studies }  />
             <Redirect from="/" to="/proyects" />

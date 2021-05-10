@@ -27,7 +27,7 @@ function Proyects() {
                             <img src="/img/img2/tasks-mern.png" className="imgProyects" alt=""/>
                         </div>
                         <div className="card-body">
-                            <div className="card-title h5">Tasks App / MERN Stack</div>
+                            <div className="card-title h5">Task App / MERN Stack</div>
 
                             <div className="d-flex justify-content-center">
                                 {/* <a href="/#" className="btn btn-primary mx-5"> Demo </a> */}
@@ -44,11 +44,11 @@ function Proyects() {
                             <img src="/img/img2/tasks-men.png" className="imgProyects" alt=""/>
                         </div>
                         <div className="card-body">
-                            <div className="card-title h5">Tasks App whit Login / MEN + passport</div>
+                            <div className="card-title h5">Task App with Login / MEN + passport</div>
 
                             <div className="d-flex justify-content-center">
                                 {/* <a href="/#" className="btn btn-primary mx-5"> Demo </a> */}
-                                <a href="/https://github.com/martinj-jaime/tasks-men-passport/tree/master" className="btn btn-dark mx-5"> Code </a>
+                                <a href="https://github.com/martinj-jaime/tasks-men-passport/tree/master" className="btn btn-dark mx-5"> Code </a>
                             </div>
                         </div>
                     </div>
