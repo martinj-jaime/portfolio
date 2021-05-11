@@ -216,6 +216,15 @@
     align-items: center;
 }
 
+.downloadMe {
+    margin-left: 7%;
+    margin-top: 1%;
+}
+
+.fas {
+    margin-right: 6px;
+}
+
 .divImgBtn {
     display: flex;
     justify-content: center;
@@ -273,20 +282,20 @@
 
 /* Proyectos */
 
-.imgProyects {
+.imgProjects {
     height: auto;
     width: 100%;
     object-fit: cover;
     object-position: center center;
 }
 
-.divImgProyectosGit {
+.divImgProjectsGit {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.imgProyectsGit {
+.imgProjectsGit {
     background: rgba(0, 0, 0, 0,5);
     opacity: 30;
     height: 40%;

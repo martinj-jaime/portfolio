@@ -16,17 +16,11 @@ function Me() {
             <br />
 
             <div className="aboutMe row">
+
             <div className="divImgBtn col-md-3">
             <img src="/img/me.jpg" alt="" className="imgMe" />
-            {/*  */}
-            {/* <button className="btn btn-outline-primary d-block mt-3 mx-auto">
-                <i className="fas fa-cloud-download-alt"></i> 
-                <FormattedMessage
-                id="me.download"
-                defaultMessage="Download my CV"
-                />
-            </button> */}
             </div>
+
             <div className="col-md-9 pl-0">
             <p className="h5 mb-2">
             <FormattedMessage
@@ -52,6 +46,17 @@ function Me() {
             </p>
 
             </div>
+            </div>
+            <div className="row">
+            {/*  */}
+            <a className="btn btn-outline-primary downloadMe" href="/CV.pdf" target="_blank" rel="noreferrer">
+                <i className="fas fa-cloud-download-alt"></i> 
+                <FormattedMessage
+                id="me.download"
+                defaultMessage="Download my CV"
+                />
+            </a>
+
             </div>
 
             <br />

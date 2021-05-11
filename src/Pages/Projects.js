@@ -1,19 +1,19 @@
 import React from 'react'
 import {FormattedMessage} from 'react-intl';
 
-function Proyects() {
+function Projects() {
     return (
         <div className="contentPortafolio">
             <div className="text-white">
                 <h3 className="container pt-5 mb-4 d-flex justify-content-center">
                     <FormattedMessage
-                    id="proyects.titleG"
+                    id="projects.titleG"
                     defaultMessage="Portfolio"
                     />
                 </h3>
                 <h4 className="container pt-3 mb-4 d-flex justify-content-center">
                     <FormattedMessage
-                    id="proyects.descriptionG"
+                    id="projects.descriptionG"
                     defaultMessage="I love programming. I program every day, and a way to justify it is through building personal projects"
                     />
                 </h4>
@@ -24,7 +24,7 @@ function Proyects() {
                     <div className="col-md-4 my-4 ">
                     <div className="card bg-secondary text-align-items mx-4">
                         <div className="card-header">
-                            <img src="/img/img2/tasks-mern.png" className="imgProyects" alt=""/>
+                            <img src="/img/img2/tasks-mern.png" className="imgProjects" alt=""/>
                         </div>
                         <div className="card-body">
                             <div className="card-title h5">Task App / MERN Stack</div>
@@ -41,7 +41,7 @@ function Proyects() {
                     <div className="col-md-4 my-4">
                     <div className="card bg-secondary text-align-items mx-4">
                         <div className="card-header">
-                            <img src="/img/img2/tasks-men.png" className="imgProyects" alt=""/>
+                            <img src="/img/img2/tasks-men.png" className="imgProjects" alt=""/>
                         </div>
                         <div className="card-body">
                             <div className="card-title h5">Task App with Login / MEN + passport</div>
@@ -57,7 +57,7 @@ function Proyects() {
                     <div className="col-md-4 my-4 ">
                     <div className="card bg-secondary text-align-items mx-4">
                         <div className="card-header">
-                            <img src="/img/img2/sortablejs.png" className="imgProyects" alt=""/>
+                            <img src="/img/img2/sortablejs.png" className="imgProjects" alt=""/>
                         </div>
                         <div className="card-body">
                             <div className="card-title h5">Drag and Drop / SortableJS</div>
@@ -76,11 +76,11 @@ function Proyects() {
                     <div className="col-md-4 my-4">
                     <div className="card bg-secondary text-align-items mx-4">
                         <div className="card-header divImgProyectosGit">
-                            <img src="/img/github.png" className="imgProyectsGit" alt="see more git"/>
+                            <img src="/img/github.png" className="imgProjectsGit" alt="see more git"/>
                             <a href="https://github.com/martinj-jaime" target="_blank" rel="noreferrer"
                             className="ml-5 btn text-white">
                             <FormattedMessage
-                            id="proyects.git"
+                            id="projects.git"
                             defaultMessage="Click to see more"
                             />
                             </a>
@@ -96,4 +96,4 @@ function Proyects() {
     )
 }
 
-export default Proyects
+export default Projects
