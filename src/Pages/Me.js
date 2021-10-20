@@ -15,13 +15,24 @@ function Me() {
             </h3>
             <br />
 
+            {/*  */}
             <div className="aboutMe row">
 
             <div className="divImgBtn col-md-3">
+            <div className="divImgMe">
             <img src="/img/me.jpg" alt="" className="imgMe" />
             </div>
+            
+            <a className="btn btn-outline-primary downloadMe" href="/CV.pdf" target="_blank" rel="noreferrer">
+                <i className="fas fa-cloud-download-alt"></i> 
+                <FormattedMessage
+                id="me.download"
+                defaultMessage="Download my CV"
+                />
+            </a>
+            </div>
 
-            <div className="col-md-9 pl-0">
+            <div className="col-md-9 pl-2">
             <p className="h5 mb-2">
             <FormattedMessage
                 id="me.me"
@@ -29,7 +40,7 @@ function Me() {
                 When learning react native I was also interested in mobile development so I also want to point my learning towards that side."
             />   
             </p>
-            {/*  */}
+            
             <h4 className="d-flex justify-content-start mt-4"> 
             <FormattedMessage
                 id="me.interest"
@@ -47,17 +58,7 @@ function Me() {
 
             </div>
             </div>
-            <div className="row">
             {/*  */}
-            <a className="btn btn-outline-primary downloadMe" href="/CV.pdf" target="_blank" rel="noreferrer">
-                <i className="fas fa-cloud-download-alt"></i> 
-                <FormattedMessage
-                id="me.download"
-                defaultMessage="Download my CV"
-                />
-            </a>
-
-            </div>
 
             <br />
             <br />
@@ -96,6 +97,11 @@ function Me() {
                 <div>
                 <img src="/img/js.png" className="imgSkills" alt=""/>
                 <p>JavaScript</p>
+                </div>
+
+                <div>
+                <img src="/img/c.png" className="imgSkills" alt=""/>
+                <p>C</p>
                 </div>
 
                 <div>

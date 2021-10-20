@@ -9,7 +9,7 @@ function Studies() {
             <h2 className="mt-4">
             <FormattedMessage
                 id="studies.progress"
-                defaultMessage="In progress"
+                defaultMessage="Diplomatura"
             />
             </h2>
 

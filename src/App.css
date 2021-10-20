@@ -105,6 +105,10 @@
     margin-top: 3px;
 }
 
+.slide button i {
+    margin: none;
+}
+
 .close {
     position: absolute;
 	top: 3px;
@@ -216,16 +220,14 @@
     align-items: center;
 }
 
-.downloadMe {
-    margin-left: 7%;
-    margin-top: 1%;
-}
-
-.fas {
-    margin-right: 6px;
-}
-
 .divImgBtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* o sacamos el flex */
+}
+
+.divImgMe {
     display: flex;
     justify-content: center;
 }
@@ -236,12 +238,25 @@
     object-fit: cover;
     object-position: center center;
 
+    align-self: center;
+
     max-height: 250px;
     max-width: 250px;
 
     border-radius: 50%;
     border: solid 1px #000;
 }
+
+.downloadMe {
+    display: inline-block;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.downloadMe i {
+    margin-right: 6px;
+}
+
 
 /* Skills */
 
@@ -259,13 +274,14 @@
     display: flex;
     margin-inline: 5px;
     margin-top: 5px;
-    padding: 20px 50px;
+    /* padding: 20px 50px; */
+    padding: 2% 5%;
     color: #fff;
 }
 
 .contenedorImgSkills div:hover {
     font-size: 150%;
-    padding: 10px 20px;
+    padding: 1% 2%;
     background-color: silver;
     color: #000;
     font-weight: bold;
